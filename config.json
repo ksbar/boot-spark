@@ -429,5 +429,6 @@
     "collapse.js",
     "scrollspy.js",
     "transition.js"
-  ]
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=e8b6fea0035b06d50ff2"
 }
