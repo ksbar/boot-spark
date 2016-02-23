@@ -1,9 +1,12 @@
 /* Large desktop */
-
+@media (min-width: 1200px) {
+.container {
+    width: 995px !important;
+}
 
 @media (min-width: 1090px) {
 .container {
-    width: 995px;
+    width: 995px !important;
 }
 
 .jumbotron h1, .jumbotron .h1 {
@@ -22,7 +25,7 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
 
-.container {width: 680px;}
+.container {width: 680px !important;}
 
 .jumbotron h1, .jumbotron .h1 {
     font-size: 63px;
@@ -60,7 +63,7 @@
 
 /* General CSS */
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
 }
 
 #CustomPageBody {
@@ -74,3 +77,24 @@ hr {
 .container h2 {
 	font-size: 24px;
 }
+
+.jumbotron h1, .jumbotron .h1 {
+    color: #585858;
+}
+
+.jumbotron p {
+    color: #696969;
+}
+
+.img-ht-100 {display: block; height: 100px;}
+.img-ht-95 {display: block; height: 95px;}
+.img-ht-90 {display: block; height: 90px;}
+.img-ht-85 {display: block; height: 85px;}
+.img-ht-80 {display: block; height: 80px;}
+.img-ht-75 {display: block; height: 75px;}
+.img-ht-70 {display: block; height: 70px;}
+.img-ht-65 {display: block; height: 65px;}
+.img-ht-60 {display: block; height: 60px;}
+.img-ht-55 {display: block; height: 55px;}
+.img-ht-50 {display: block; height: 50px;}
+
