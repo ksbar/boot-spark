@@ -16,6 +16,4 @@
 </symbol>
 </defs>
 
-<script xmlns="http://www.w3.org/2000/svg">document.getElementById(location.hash.substring(1)).getElementsByTagName('path')[0].setAttribute('fill', '#333');</script>
-
 </svg>
